@@ -23,21 +23,39 @@ status here. It is also where we record gaps and revisions.
 ## Phase status by deliverable
 
 Status legend: `pending` = not yet built · `draft` = built, not reviewed ·
-`pass` = all five gates passed · `flagged` = gate failure, see notes below.
+`pass` = all five gates passed · `flagged` = gate failure, see notes below ·
+`scope-deferred` = decision on whether/how to build is pending an upstream
+validation gate.
 
-### Phase 2 — Annual plans (per grade × per stream)
+### Phase 2A — 2AS Foreign Languages standalone (current focus)
+
+Per project decision (2026-06-17), Phase 2 is currently scoped down to
+**Phase 2A** — the 2AS Foreign Languages stream as a self-contained,
+validated model. **No derivation work for any other stream until the user
+validates 2AS FL.** After validation the user will decide whether the
+remaining streams are derived from 2AS FL or independently authored; that
+decision is therefore not pre-committed here.
 
 | Grade | Stream | Yearly plan | Scope & sequence | Pacing guide | Assessment calendar | Competency map |
 |-------|--------|-------------|-------------------|--------------|----------------------|-----------------|
-| **2AS** | **Foreign Languages** (canonical) | draft | draft | draft | draft | draft |
-| 2AS | Letters & Philosophy | pending | pending | pending | pending | pending |
-| 2AS | Sciences / Maths / TM | pending | pending | pending | pending | pending |
-| 2AS | Management & Economy | pending | pending | pending | pending | pending |
-| 1AS | Common Core Letters (canonical) | pending | pending | pending | pending | pending |
-| 1AS | Common Core Sciences & Tech | pending | pending | pending | pending | pending |
-| 3AS | Foreign Languages (canonical) | pending | pending | pending | pending | pending |
-| 3AS | Letters / Philosophy | pending | pending | pending | pending | pending |
-| 3AS | Sciences / Maths / TM / Mgmt-Econ | pending | pending | pending | pending | pending |
+| **2AS** | **Foreign Languages** | draft — awaiting validation | draft — awaiting validation | draft — awaiting validation | draft — awaiting validation | draft — awaiting validation |
+
+### Phase 2B+ — other streams (scope-deferred)
+
+These are listed only so the registry is complete. **Not authored, not
+scheduled.** Build (or derivation) decision is gated on the outcome of
+Phase 2A validation.
+
+| Grade | Stream | Status |
+|-------|--------|--------|
+| 2AS | Letters & Philosophy | scope-deferred |
+| 2AS | Sciences / Maths / Tech-Maths | scope-deferred |
+| 2AS | Management & Economy | scope-deferred |
+| 1AS | Common Core Letters | scope-deferred |
+| 1AS | Common Core Sciences & Tech | scope-deferred |
+| 3AS | Foreign Languages | scope-deferred |
+| 3AS | Letters / Philosophy | scope-deferred |
+| 3AS | Sciences / Maths / Tech-Maths / Mgmt-Econ | scope-deferred |
 
 ### Phase 3 — Unit-by-unit overview log
 
