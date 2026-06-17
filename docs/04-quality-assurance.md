@@ -20,7 +20,26 @@ status here. It is also where we record gaps and revisions.
 
 ---
 
-## Unit-by-unit QA log
+## Phase status by deliverable
+
+Status legend: `pending` = not yet built · `draft` = built, not reviewed ·
+`pass` = all five gates passed · `flagged` = gate failure, see notes below.
+
+### Phase 2 — Annual plans (per grade × per stream)
+
+| Grade | Stream | Yearly plan | Scope & sequence | Pacing guide | Assessment calendar | Competency map |
+|-------|--------|-------------|-------------------|--------------|----------------------|-----------------|
+| **2AS** | **Foreign Languages** (canonical) | draft | draft | draft | draft | draft |
+| 2AS | Letters & Philosophy | pending | pending | pending | pending | pending |
+| 2AS | Sciences / Maths / TM | pending | pending | pending | pending | pending |
+| 2AS | Management & Economy | pending | pending | pending | pending | pending |
+| 1AS | Common Core Letters (canonical) | pending | pending | pending | pending | pending |
+| 1AS | Common Core Sciences & Tech | pending | pending | pending | pending | pending |
+| 3AS | Foreign Languages (canonical) | pending | pending | pending | pending | pending |
+| 3AS | Letters / Philosophy | pending | pending | pending | pending | pending |
+| 3AS | Sciences / Maths / TM / Mgmt-Econ | pending | pending | pending | pending | pending |
+
+### Phase 3 — Unit-by-unit overview log
 
 Status legend: `pending` = not yet built · `draft` = built, not reviewed ·
 `pass` = all five gates passed · `flagged` = gate failure, see notes below.
