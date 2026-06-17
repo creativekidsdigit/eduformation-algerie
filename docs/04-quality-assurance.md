@@ -37,13 +37,17 @@ Status legend: `pending` = not yet built · `draft` = built, not reviewed ·
 
 ### 2AS — Getting There
 
+The 2AS package authoritatively covers **7 units** from the textbook
+*Getting There* (textbook units 1, 2, 3, 4, 6, 7, 8). Textbook Unit 5 is
+intentionally excluded per project decision — the official Teaching Map
+omits it and no stream's syllabus theme depends on it.
+
 | # | Unit | Phase 3 | Phase 5 | Phase 6 | Phase 7 | Notes |
 |---|------|---------|---------|---------|---------|-------|
 | 1 | Signs of the Time | pending | pending | pending | pending | |
 | 2 | Make Peace! | pending | pending | pending | pending | |
 | 3 | Waste Not Want Not | pending | pending | pending | pending | |
 | 4 | Budding Scientist | pending | pending | pending | pending | |
-| 5 | *(reconstructed: Fiction or Reality?)* | pending | pending | pending | pending | **GAP**: source omits Unit 5; will reconstruct from annual-distribution theme. |
 | 6 | No Man Is an Island | pending | pending | pending | pending | |
 | 7 | Science or Fiction | pending | pending | pending | pending | |
 | 8 | Business Is Business | pending | pending | pending | pending | |
@@ -65,7 +69,7 @@ Status legend: `pending` = not yet built · `draft` = built, not reviewed ·
 
 | Date | Item | Severity | Action |
 |------|------|----------|--------|
-| Phase 0 | 2AS Unit 5 has no Teaching-Map page (source jumps from Unit 4 to Unit 6) | medium | Reconstruct using *Fiction or Reality?* annual-distribution theme; mark file *(reconstructed — please cross-check with your local edition of Getting There)*. |
+| Phase 0 | 2AS textbook Unit 5 has no Teaching-Map page (source jumps from Unit 4 to Unit 6) | medium | **Decision (2026-06-17): skip entirely.** The 2AS package is authored as a 7-unit course covering textbook units 1, 2, 3, 4, 6, 7, 8. Textbook numbering preserved so teachers can match pages in *Getting There*. Cross-checked against the annual-distribution PDF — no stream's theme list depends on Unit 5. |
 | Phase 0 | The three .pps decks are image-only — no text content recoverable beyond shape metadata | low | None needed; PDFs cover all syllabus-level content. |
 | Phase 0 | Source documents do not specify lesson-by-lesson timing | low | Add defensible default ESA timings (60-min slot baseline) labelled as *pedagogical scaffolding*. |
 

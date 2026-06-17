@@ -28,9 +28,13 @@ text rendition (`*.txt`).
    strategies), that material is marked as *pedagogical scaffolding* and is
    tied to an official competency.
 3. **Gaps are surfaced, not filled silently.** When a source document is
-   missing a piece (e.g. 2AS Unit 5 has no teaching-map page), this is
-   flagged in `docs/04-quality-assurance.md` and any reconstructed material
-   is clearly labelled *(reconstructed — please cross-check)*.
+   missing a piece (e.g. 2AS textbook Unit 5 has no teaching-map page), this
+   is logged in `docs/04-quality-assurance.md` together with the project
+   decision. The 2AS Unit 5 gap was resolved on 2026-06-17 by skipping the
+   unit entirely; the package authoritatively covers the 7 units the source
+   *does* document. Where a missing piece is reconstructed instead of
+   skipped, the reconstructed material is clearly labelled
+   *(reconstructed — please cross-check)*.
 4. **Bilingual fidelity.** The annual-distribution PDF is bilingual. Where
    helpful, the Arabic source phrasing is reproduced (e.g. trimester names,
    stream names, holiday markers).

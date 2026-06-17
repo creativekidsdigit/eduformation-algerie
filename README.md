@@ -18,7 +18,7 @@ l'enseignement secondaire).
 | Year | Streams | Annual Hours | Coefficients | Units | Textbook |
 |------|---------|--------------|--------------|-------|----------|
 | **1AS** | Common Core Sciences & Technology / Common Core Letters | 81 / 108 | 2 / 3 | 5 | At the Crossroads |
-| **2AS** | Letters & Philosophy / Foreign Languages / Sciences-Maths-TM / Management & Economy | 108 / 135 / 81 / 81 | 3 / 4 / 2 / 2 | 5–7 | Getting There |
+| **2AS** | Letters & Philosophy / Foreign Languages / Sciences-Maths-TM / Management & Economy | 108 / 135 / 81 / 81 | 3 / 4 / 2 / 2 | 4–5 of 7 | Getting There |
 | **3AS** | Letters / Foreign Languages / Sciences-Maths-TM / Mgmt & Economy | 108 / 108 / 81 / 81 | 3 / **5** / 2 / 2 | 4 of 6 | New Prospects |
 
 ## Package structure

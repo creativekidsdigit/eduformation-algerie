@@ -57,10 +57,10 @@ guidelines section.
 |-------|--------------------------------|------|-----------|-----------|---------------------|
 | **1AS** | Common Core Sciences & Tech (جذع مشترك علوم و تكنولوجيا) | 2 | 81 | 3 | 5 |
 | **1AS** | Common Core Letters (جذع مشترك آداب) | 3 | 108 | 4 | 5 |
-| **2AS** | Letters & Philosophy (آداب / فلسفة) | 3 | 108 | 4 | 5 |
-| **2AS** | Foreign Languages (لغات أجنبية) | 4 | 135 | 5 | 6 |
-| **2AS** | Experimental Sci. / Maths / Tech-Maths (علوم تجريبية، رياضيات، تقني رياضي) | 2 | 81 | 3 | 4 |
-| **2AS** | Management & Economy (تسيير و اقتصاد) | 2 | 81 | 3 | 4 |
+| **2AS** | Letters & Philosophy (آداب / فلسفة) | 3 | 108 | 4 | 5 of 7 |
+| **2AS** | Foreign Languages (لغات أجنبية) | 4 | 135 | 5 | 6 of 7 |
+| **2AS** | Experimental Sci. / Maths / Tech-Maths (علوم تجريبية، رياضيات، تقني رياضي) | 2 | 81 | 3 | 4 of 7 |
+| **2AS** | Management & Economy (تسيير و اقتصاد) | 2 | 81 | 3 | 4 of 7 |
 | **3AS** | Letters / Philosophy (آداب و فلسفة) | 3 | 108 | 4 | 4 of 6 |
 | **3AS** | Foreign Languages (لغات أجنبية) | **5** | 108 | 4 | 4 of 6 |
 | **3AS** | Sciences / Maths / Tech-Maths / Mgmt-Econ | 2 | 81 | 3 | 4 of 6 |
@@ -120,7 +120,11 @@ Sciences/Tech stream uses 3 h/week (81 h total) so each unit is approximately
 
 ## 5. Year 2 (2AS) — *Getting There*
 
-**Project-driven units:**
+**Project-driven units:** the official Teaching Map covers **7 units** (textbook
+units 1, 2, 3, 4, 6, 7, 8). Textbook Unit 5 has no page in the source and is
+intentionally excluded from this package per project decision. The textbook
+numbering is preserved so teachers can still locate pages in their copy of
+*Getting There*.
 
 | # | Textbook Unit | Theme | Project / Portfolio |
 |---|---------------|-------|---------------------|
@@ -128,7 +132,6 @@ Sciences/Tech stream uses 3 h/week (81 h total) so each unit is approximately
 | 2 | Make Peace! | Peace and Conflict Resolution | Statement of achievements about Nobel Peace Prize winners + UNICEF speech |
 | 3 | Waste Not Want Not | Poverty and World Resources / Environment | Conservation Plan (fact sheet + diagrams + town code + ideal-future map) |
 | 4 | Budding Scientist | Technology and Innovation | Reports on scientific experiments + "ABC of Dreams" |
-| 5 | *(missing in source)* | *(no map page in the official Teaching Map)* | — *flagged as a gap; see `docs/04-quality-assurance.md`* |
 | 6 | No Man Is an Island | Disasters and Safety | Survey on disaster preparedness (questionnaire + interview + report with graph) |
 | 7 | Science or Fiction | Fiction or Reality? | Miscellanies (statements with type-3 conditionals, dialogue, biographical commentary) |
 | 8 | Business Is Business | Management and Efficiency | Business Portfolio (enquiry, complaint, congratulations, annual report, confidential report) |
@@ -157,20 +160,28 @@ Sciences/Tech stream uses 3 h/week (81 h total) so each unit is approximately
 
 ### 5.3 Stream-by-stream coverage
 
-| Stream | Units used (textbook order) |
-|--------|----------------------------|
-| Letters & Philosophy (5 units) | 1 Diversity → 2 Peace → 3 Poverty → 4 Fiction-or-Reality → 5 Disasters & Safety *(local renumber)* |
-| Foreign Languages (6 units) | 1 Diversity → 2 Peace → 3 Poverty → 4 Tech & Innovation → 5 Fiction-or-Reality → 6 Disasters & Safety |
-| Sciences / Maths / TM (4 units) | 1 Peace → 2 Poverty → 3 Tech & Innovation → 4 Disasters & Safety |
-| Management & Economy (4 units) | 1 Peace → 2 Poverty → 3 Disasters & Safety → 4 Management & Efficiency |
+The annual-distribution PDF defines themes per stream; here we map those
+themes to the textbook units we are authoring. Numbers refer to the textbook
+unit number in *Getting There*.
+
+| Stream | Textbook units used (in teaching order) |
+|--------|------------------------------------------|
+| Letters & Philosophy | 1 *Signs of the Time* → 2 *Make Peace!* → 3 *Waste Not Want Not* → 7 *Science or Fiction* → 6 *No Man Is an Island* |
+| Foreign Languages | 1 *Signs of the Time* → 2 *Make Peace!* → 3 *Waste Not Want Not* → 4 *Budding Scientist* → 7 *Science or Fiction* → 6 *No Man Is an Island* |
+| Sciences / Maths / Tech-Maths | 2 *Make Peace!* → 3 *Waste Not Want Not* → 4 *Budding Scientist* → 6 *No Man Is an Island* |
+| Management & Economy | 2 *Make Peace!* → 3 *Waste Not Want Not* → 6 *No Man Is an Island* → 8 *Business Is Business* |
 
 ### 5.4 Pacing (foreign-languages stream — 5 h × 27 effective weeks = 135h)
 
+The Foreign Languages stream uses six textbook units in the order
+**1 → 2 → 3 → 4 → 7 → 6**. Theme labels below match the annual-distribution
+PDF; the textbook unit number is shown in parentheses for cross-reference.
+
 | Trimester | Weeks | Weekly hours | Coverage |
 |-----------|-------|-------------|----------|
-| T1 | 1–10 | 5 | Diagnostic → Unit 1 *Diversity* → Unit 2 *Peace & Conflict Resolution* → T1 exam |
-| T2 | 11–22 | 5 | Unit 2 cont. → Unit 3 *Poverty & World Resources* → Unit 4 *Tech & Innovation* → Unit 5 *Fiction or Reality?* → T2 exam |
-| T3 | 23–31 | 5 | Unit 5 cont. → Unit 6 *Disasters & Safety* → general review → T3 exam |
+| T1 | 1–10 | 5 | Diagnostic → *Diversity* (txt 1) → *Peace & Conflict Resolution* (txt 2) → T1 exam |
+| T2 | 11–22 | 5 | *Peace* cont. → *Poverty & World Resources* (txt 3) → *Tech & Innovation* (txt 4) → *Fiction or Reality?* (txt 7) → T2 exam |
+| T3 | 23–31 | 5 | *Fiction or Reality?* cont. → *Disasters & Safety* (txt 6) → general review → T3 exam |
 
 Other 2AS streams scale down proportionally per their unit count and weekly hours.
 
@@ -317,11 +328,12 @@ all anchored to the same competencies:
 
 These items are honestly surfaced rather than fabricated:
 
-1. The Teaching Map (page 36–37 of the source) **omits 2AS Unit 5**. We will
-   reconstruct a 2AS Unit 5 placeholder using the annual-distribution theme
-   *Fiction or Reality?* and the textbook *Getting There* sequence. The
-   reconstructed unit is clearly labelled `(reconstructed — please cross-check
-   with your local edition of Getting There)`.
+1. The Teaching Map (page 36–37 of the source) **omits 2AS textbook Unit 5**.
+   Per project decision (2026-06-17) this unit is **skipped entirely**: the
+   2AS package is authored as a **7-unit course** covering textbook units
+   1, 2, 3, 4, 6, 7, 8. The textbook numbering is preserved so teachers can
+   still locate pages in their copy of *Getting There*; no stream's syllabus
+   theme list depends on Unit 5 (verified against the annual distribution).
 2. The three **.pps presentations** (1AS / 2AS / 3AS *syllabus distribution*)
    are image-only slide decks; no additional pedagogical text is recoverable
    without OCR. The PDFs cover all the syllabus-level content these slides
