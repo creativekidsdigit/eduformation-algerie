@@ -1,5 +1,14 @@
 # Unit Overview Template (2AS Foreign Languages)
 
+> **🔒 FROZEN PENDING REVIEW (since 2026-06-17).**
+> This template is locked. It cannot be edited, restructured, or
+> re-ordered without explicit user approval. After review, the user
+> will either approve it as-is (then it becomes the **immutable shape**
+> of every 2AS FL unit overview) or request specific edits (then a
+> single edit pass is applied and the file is re-frozen). No
+> "optimisation pass" or silent refactor is permitted while this
+> notice is in place.
+
 > **This is a generic template — no unit content.** It is staged for
 > Phase 3A authoring. When authorising Phase 3A, replace every
 > `{{placeholder}}` with the corresponding sourced content. Do not

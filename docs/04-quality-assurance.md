@@ -67,9 +67,10 @@ further explicit instruction.
 
 | Grade | Stream | Template | Index | Unit 1 | Unit 2 | Unit 3 | Unit 4 | Unit 7 | Unit 6 |
 |-------|--------|----------|-------|--------|--------|--------|--------|--------|--------|
-| 2AS | Foreign Languages | pending — preparation | pending — preparation | hold | hold | hold | hold | hold | hold |
+| 2AS | Foreign Languages | **frozen pending review** (2026-06-17) | done | hold | hold | hold | hold | hold | hold |
 
 `hold` = file will be authored only after explicit user authorisation.
+`frozen pending review` = the template is locked while the user reviews it; no editing, no refactoring, no "optimisation passes" until the user signals approval or explicit edits.
 
 ### Phase 2B+ — All other streams (independently authored, not derived)
 
