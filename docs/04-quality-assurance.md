@@ -44,13 +44,32 @@ authored model. **No derivation work for any other stream — ever
 (Stream Integrity Rule).** All other streams will be independently
 authored from the official source documents on their own merit.
 
+**Status: PASS (2026-06-17).** All 4 deliverables approved by the user.
+The system is held in a stable state; no re-analysis, no restructuring,
+no sequence changes, no optimisation passes are permitted on Phase 2A
+files without explicit user approval.
+
 | Grade | Stream | Yearly plan | Scope & sequence | Assessment calendar | Competency map |
 |-------|--------|-------------|---------------------|----------------------|-----------------|
-| **2AS** | **Foreign Languages** | draft (edits applied) | draft (edits applied) | draft (edits applied) | draft (edits applied) |
+| **2AS** | **Foreign Languages** | **PASS** | **PASS** | **PASS** | **PASS** |
 
 > Note: pacing guide was authored in error (5th deliverable) and was
 > deleted on 2026-06-17 to match the user's approved scope of 4
 > deliverables. Day-by-day pacing is deferred to a later phase.
+
+### Phase 3A — 2AS FL Unit Overviews (preparation only — authoring on hold)
+
+Per user authorisation (2026-06-17), Phase 3 is **scoped down to Phase 3A**:
+unit overviews for the 2AS Foreign Languages stream **only**. The user has
+authorised *preparation* (template + index) but **explicitly NOT
+authorisation to begin authoring**. Authoring will start only after a
+further explicit instruction.
+
+| Grade | Stream | Template | Index | Unit 1 | Unit 2 | Unit 3 | Unit 4 | Unit 7 | Unit 6 |
+|-------|--------|----------|-------|--------|--------|--------|--------|--------|--------|
+| 2AS | Foreign Languages | pending — preparation | pending — preparation | hold | hold | hold | hold | hold | hold |
+
+`hold` = file will be authored only after explicit user authorisation.
 
 ### Phase 2B+ — All other streams (independently authored, not derived)
 
@@ -123,7 +142,7 @@ omits it and no stream's syllabus theme depends on it.
 | 2026-06-17 | Phase 1 governance edits required by user (PASS WITH MINOR EDITS) | medium | **Resolved.** All 4 edits applied: (1) inferred content tagged `pending verification from official teaching map`; (2) Source Hierarchy added to `02-source-attribution.md` (priority: Teaching Map > Annual Distribution > Textbook sequence > Derived inference); (3) FROZEN REFERENCE notice on `00-curriculum-map.md`; (4) Stream Integrity Rule added to `01-pedagogical-framework.md`. |
 | 2026-06-17 | Pacing guide authored beyond the 4 approved Phase 2A deliverables | low | **Resolved.** `curriculum/2AS/annual_plan/pacing-guide.md` deleted; cross-references in the 4 surviving files updated. Day-by-day pacing deferred to a later phase. |
 | 2026-06-17 | Derivation between streams was previously open as a possibility | medium | **Resolved.** Stream Integrity Rule forbids derivation; every stream is now an independent pedagogical pathway authored from official sources. QA log and implementation plan updated. |
-| 2026-06-17 | Textbook-order ambiguity for FL stream (Annual Distribution prescribes 1→2→3→4→7→6; textbook numerical TOC would be 1→2→3→4→6→7) | medium | **Open.** Surfaced to user for decision. Phase 2A currently follows the Annual Distribution order (priority-2 source) per the Source Hierarchy. If the user means strict textbook numerical TOC order, all 4 Phase 2A deliverables must be re-ordered (units 6 and 7 swapped). See response after Phase 2A commit. |
+| 2026-06-17 | Textbook-order ambiguity for FL stream (Annual Distribution prescribes 1→2→3→4→7→6; textbook numerical TOC would be 1→2→3→4→6→7) | medium | **Resolved (2026-06-17): Reading A confirmed by user.** Phase 2A retains the Annual Distribution order 1→2→3→4→7→6 per the Source Hierarchy (priority 2 over priority 3). No file changes needed. |
 | Phase 0 | 2AS textbook Unit 5 has no Teaching-Map page (source jumps from Unit 4 to Unit 6) | medium | **Decision (2026-06-17): skip entirely.** The 2AS package is authored as a 7-unit course covering textbook units 1, 2, 3, 4, 6, 7, 8. Textbook numbering preserved so teachers can match pages in *Getting There*. Cross-checked against the annual-distribution PDF — no stream's theme list depends on Unit 5. |
 | Phase 0 | The three .pps decks are image-only — no text content recoverable beyond shape metadata | low | None needed; PDFs cover all syllabus-level content. |
 | Phase 0 | Source documents do not specify lesson-by-lesson timing | low | When lesson plans are authored (Phase 5), defensible default ESA timings will be added, labelled as *pedagogical scaffolding* per the Source Hierarchy priority-4. |

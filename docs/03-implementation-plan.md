@@ -14,7 +14,8 @@ moves from `docs/` into a teacher's lesson book, classroom by classroom.
 | 1 ✓ | Implementation plan (this file) | `docs/03` | 1 markdown |
 | **2A — current** | Annual plans for 2AS Foreign Languages **only** (4 deliverables: yearly plan + scope & sequence + assessment calendar + competency map). Authored independently from official source documents per the Stream Integrity Rule. | `curriculum/2AS/annual_plan/` | 4 markdown |
 | 2B+ — pending | Annual plans for the remaining 8 stream-grade combinations. Each stream **independently authored** from the official source documents — derivation, trimming, mapping, or normalisation between streams is forbidden by the Stream Integrity Rule (`docs/01-pedagogical-framework.md` Section 1.b). | `curriculum/<grade>/annual_plan/` | 32 markdown (8 streams × 4 deliverables) |
-| 3 | Unit overviews | `curriculum/<grade>/unit_plans/` | 1AS=5, 2AS=7, 3AS=6 → **18 files** |
+| **3A — preparation only** | Unit overviews for 2AS Foreign Languages **only** (6 units: 1, 2, 3, 4, 7, 6). Backward Design Stage 1 + Stage 2 per unit. **Template + index are authored as preparation; authoring of the 6 individual unit files is on hold pending explicit user authorisation.** | `curriculum/2AS/unit_plans/` | template (1) + index (1) + units (6, on hold) |
+| 3B+ — pending | Unit overviews for the remaining 8 stream-grade combinations. Each independently authored from official sources per the Stream Integrity Rule. | `curriculum/<grade>/unit_plans/` | TBD (one set per stream) |
 | 4 | Bloom's-aligned objective tables (embedded in unit & lesson files) | inline | — |
 | 5 | Lesson plans (avg 8 lessons / unit × 18 units) | `curriculum/<grade>/lesson_plans/` | ~144 files |
 | 6 | Diagnostic + formative + summative assessments | `curriculum/<grade>/assessments/` | ~3 diagnostic + 18 unit tests + 6 trimester exams = **27** |
