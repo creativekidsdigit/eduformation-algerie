@@ -12,3 +12,6 @@ Thumbs.db
 build/
 *.docx
 *.pdf.tmp
+
+# Exploratory string-dumps from the .pps files (used during diagnosis only)
+sources/*_strings.txt
