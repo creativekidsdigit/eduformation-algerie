@@ -1,5 +1,24 @@
 # Source Attribution & Fidelity Policy
 
+## Source Hierarchy (authoritative ranking)
+
+When two source documents conflict, the higher-priority source wins. When
+the source documents are silent on a question, *no inferred content is
+authored* — the relevant cell is marked `pending verification from
+official teaching map`.
+
+| Priority | Source | What it governs |
+|----------|--------|-----------------|
+| 1 (highest) | **Teaching Map PDF** (`sources/teaching_map_all_in_one.pdf`) | Per-unit competencies (C1/C2/C3 aims), task-phase-activity tables, productive language, vocabulary glossaries, project artefacts |
+| 2 | **Annual Distribution PDF** (`sources/official_syllabus_annual_distribution.pdf`) | Stream coverage, theme order per stream, weekly hour load, coefficients, trimester structure, holiday placement |
+| 3 | **Textbook sequence** (*At the Crossroads* / *Getting There* / *New Prospects*) | Default unit numbering and page references when a Teaching Map task points to "p.&n°" |
+| 4 (lowest) | **Derived pedagogical inference** | Bloom's-verb mapping, ESA timings, rubric descriptors, differentiation strategies, project-rubric criteria — must be explicitly labelled |
+
+Any artefact in this curriculum that does not cite a level-1, 2, or 3
+source must carry a level-4 label such as `pedagogical scaffolding`,
+`pedagogical inference`, or `pending verification from official teaching
+map` so a reader can always tell what is sourced from what is interpreted.
+
 ## Source documents
 
 This curriculum is derived **only** from official Algerian Ministry of

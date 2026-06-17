@@ -5,6 +5,17 @@
 > teachers can verify balance, identify over- or under-served strands, and
 > intervene with differentiation where needed.
 
+> **Source-fidelity notice (priority-4 content).**
+> The unit-by-unit **C1 / C2 / C3 tags** below are sourced directly from
+> the official Teaching Map's per-unit aim sections. The
+> **emphasis weighting** (★★★ / ★★ / ★) and the **Bloom's-level mapping**
+> are *pedagogical inference* — the source labels each unit's
+> competencies but does not weight them or map them to Bloom's. Treat
+> the star ratings and Bloom's columns as `pending verification from
+> official teaching map`. The Productive-language map's
+> *Final mastery target* column and the *Differentiation hooks* table are
+> likewise pedagogical inference.
+
 ---
 
 ## The three competencies (recap)
@@ -175,7 +186,6 @@ missing item before opening the first lesson.
 
 - **Yearly overview** → [`yearly-plan.md`](yearly-plan.md)
 - **Per-unit content** → [`scope-and-sequence.md`](scope-and-sequence.md)
-- **Day-by-day schedule** → [`pacing-guide.md`](pacing-guide.md)
 - **Assessments & dates** → [`assessment-calendar.md`](assessment-calendar.md)
 - **Pedagogical framework** → `../../../docs/01-pedagogical-framework.md`
 - **QA gates** → `../../../docs/04-quality-assurance.md`

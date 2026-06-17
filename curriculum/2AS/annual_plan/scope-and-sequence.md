@@ -4,6 +4,30 @@
 > textbook units of the Foreign Languages stream, in teaching order:
 > **1 → 2 → 3 → 4 → 7 → 6**.
 
+> **Order rationale.** This sequence is taken from the **Annual Distribution
+> PDF** (priority-2 source), which prescribes the FL stream as
+> *Diversity → Peace → Poverty → Tech & Innovation → Fiction or Reality? →
+> Disasters & Safety* (mapped to textbook units 1 → 2 → 3 → 4 → 7 → 6).
+> The textbook *Getting There* prints its units in numerical order
+> (1, 2, 3, 4, 5, 6, 7, 8); the Annual Distribution overrides the
+> textbook's numerical order per the Source Hierarchy in
+> `../../../docs/02-source-attribution.md`.
+> *If you intend "textbook order strictly" to mean the textbook's
+> numerical TOC (i.e. teach Unit 6 before Unit 7), the order in this
+> document must be changed — see the open question raised after Phase 2A
+> commit.*
+
+> **Source-fidelity notice (priority-4 content).**
+> The per-unit *Productive language*, *Vocabulary domains*,
+> *Skill focus per phase*, and *Project deliverables* tables are sourced
+> directly from the official Teaching Map (priority-1) and the Annual
+> Distribution (priority-2). The cross-cutting analyses
+> (*"What this unit unlocks"*, *"Year-long progression arcs"*,
+> *"Cumulative skills checklist"*) are **pedagogical inference** — they
+> are derived from, but not literally present in, the source documents.
+> Treat those analyses as `pending verification from official teaching
+> map` for any high-stakes use.
+
 ---
 
 ## Year-long progression arcs
@@ -447,7 +471,6 @@ By the end of 2AS Foreign Languages, the learner can:
 ## Cross-references
 
 - **Yearly overview** → [`yearly-plan.md`](yearly-plan.md)
-- **Day-by-day schedule** → [`pacing-guide.md`](pacing-guide.md)
 - **Assessment dates & blueprints** → [`assessment-calendar.md`](assessment-calendar.md)
 - **C1/C2/C3 + Bloom's distribution per unit** → [`competency-map.md`](competency-map.md)
 - **Source authority** → `../../../docs/02-source-attribution.md`

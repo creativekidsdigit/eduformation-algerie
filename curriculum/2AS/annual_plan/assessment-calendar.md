@@ -8,6 +8,16 @@
 
 ## Assessment philosophy (alignment with the Six A's)
 
+> **Source-fidelity notice (priority-4 content).**
+> The official Annual Distribution prescribes only three written
+> trimester exams (*اختبارات الثلاثي الأول / الثاني / الثالث*); the
+> phase quizzes, exit tickets, project rubrics, weights (10/30/30/30),
+> and the trimester written-exam blueprint in this calendar are
+> **pedagogical inference** consistent with the Six A's "Assessment
+> Practices" pillar. Treat these as `pending verification from official
+> teaching map` for any official-record use; replace freely with your
+> school's prescribed weights and instruments.
+
 The Six A's of Project Design (from the official Teaching Map) demand that
 assessment be:
 
@@ -158,5 +168,4 @@ The same structure applies to T2 and T3.
 
 - **Yearly overview** → [`yearly-plan.md`](yearly-plan.md)
 - **Per-unit content** → [`scope-and-sequence.md`](scope-and-sequence.md)
-- **Day-by-day schedule** → [`pacing-guide.md`](pacing-guide.md)
 - **Competency / Bloom's distribution** → [`competency-map.md`](competency-map.md)

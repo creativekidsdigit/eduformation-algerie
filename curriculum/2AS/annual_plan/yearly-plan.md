@@ -1,8 +1,21 @@
 # 2AS — Foreign Languages — Yearly Plan
 
-> **One-page overview of the academic year.** For day-by-day teaching use the
-> [pacing guide](pacing-guide.md). For per-unit content see the
-> [scope and sequence](scope-and-sequence.md).
+> **One-page overview of the academic year.** For per-unit content see the
+> [scope and sequence](scope-and-sequence.md). For the full assessment
+> roster see the [assessment calendar](assessment-calendar.md). For the
+> C1/C2/C3 + Bloom's distribution see the
+> [competency map](competency-map.md).
+>
+> *(Per Phase 2A scope freeze, this document does not include a week-by-week
+> pacing guide. Day-by-day scheduling will be addressed in a later phase.)*
+
+> **Source-fidelity notice.** The trimester-anchor table, year-at-a-glance
+> diagram, and unit-week allocations below are derived from the **Annual
+> Distribution PDF** (priority-2). Holiday placement (autumn / winter /
+> spring breaks) follows the source's symbolic week markers
+> (*عطلة الخريف / الشتاء / الربيع*); the actual calendar dates depend on
+> the Ministry circular published each August and must be filled in
+> locally.
 
 ---
 
@@ -80,8 +93,9 @@ Diagnostic + 2 trimester-end reviews + 3 trimester exams: **5 weeks × 5 h = 25 
 
 Holiday names follow the official annual distribution (*عطلة الخريف /
 الشتاء / الربيع* — autumn / winter / spring breaks). Exact dates depend on
-the Ministry circular published each August; substitute your local
-calendar into the [pacing guide](pacing-guide.md).
+the Ministry circular published each August; trimester-anchor dates and
+unit-week allocations should be substituted from your local school
+calendar (day-by-day pacing is out of Phase 2A scope).
 
 ---
 
@@ -119,7 +133,6 @@ Full pedagogical framework: [`docs/01-pedagogical-framework.md`](../../../docs/0
 ## Cross-references
 
 - **Per-unit content** → [`scope-and-sequence.md`](scope-and-sequence.md)
-- **Day-by-day plan** → [`pacing-guide.md`](pacing-guide.md)
 - **All assessments and dates** → [`assessment-calendar.md`](assessment-calendar.md)
 - **Competency distribution & Bloom's progression** → [`competency-map.md`](competency-map.md)
 - **QA log** (per-unit pass/fail status) → [`docs/04-quality-assurance.md`](../../../docs/04-quality-assurance.md)

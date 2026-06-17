@@ -1,5 +1,15 @@
 # Master Curriculum Map — Algerian Secondary English (1AS / 2AS / 3AS)
 
+> **🔒 FROZEN REFERENCE DOCUMENT (since 2026-06-17).**
+> This file is now a frozen reference. It cannot be **structurally**
+> rewritten, reorganised, or re-analysed without explicit user approval.
+> Surgical, source-fidelity-preserving edits (e.g. tagging an inferred cell
+> with `pending verification from official teaching map`, fixing a typo,
+> or amending the gap log) are permitted; sectional rewrites, theme/unit
+> reordering, scope changes, or new analytical layers are **not**.
+> Any disagreement with content here must be resolved by the user before
+> any downstream Phase 2+ document is changed.
+
 > **Source fidelity statement.** This curriculum map is derived **only** from
 > the official Algerian Ministry of National Education syllabus documents
 > (annual distribution + teaching map). Every theme, unit, project, productive-
@@ -19,6 +29,13 @@ communicative competencies — referenced in the official Teaching Map as
 | **C1** | **Interaction** | The learner negotiates meaning in real time with one or more interlocutors (oral or written). | guess, respond, ask, answer, agree, disagree, justify, request, instruct, salutation |
 | **C2** | **Production / Expression** | The learner produces an extended, organised oral or written text for a purpose and an audience. | describe, narrate, report, expose, argue, write, deliver, present |
 | **C3** | **Interpretation** | The learner extracts, infers and interprets meaning from oral or written input. | predict, skim, scan, infer, summarise, interpret a graph / blurb / picture |
+
+> **Note on definitions.** The C1/C2/C3 *labels* and *typical aim verbs* are
+> sourced directly from the official Teaching Map. The short definitions in
+> column 3 are **pedagogical paraphrases** — the source uses the labels
+> repeatedly but does not provide a formal definition for each. Treat these
+> definitions as `pending verification from official teaching map` until a
+> finer-grained Ministry definition becomes available.
 
 Every unit objective in this curriculum is tagged **(C1)**, **(C2)** or **(C3)**.
 
@@ -267,6 +284,13 @@ evidence) and the Six A's Authenticity criterion.
 
 ## 8. Bloom's taxonomy alignment
 
+> **Pedagogical scaffolding (priority-4 source).** The Bloom's-verb
+> mapping below is *pedagogical inference*, not a Ministry artefact. The
+> source documents prescribe competencies (C1/C2/C3) and project
+> artefacts but do not specify Bloom's levels. The mapping is provided to
+> help teachers calibrate cognitive depth; it can be replaced wholesale
+> if a school uses a different taxonomy.
+
 Every lesson objective in this curriculum is written with a Bloom's verb
 followed by an explicit competency tag and a measurable behaviour:
 
@@ -326,7 +350,10 @@ all anchored to the same competencies:
 
 ## 11. Identified gaps (auto-flagged in QA)
 
-These items are honestly surfaced rather than fabricated:
+These items are honestly surfaced rather than fabricated. Per project
+governance (2026-06-17), gaps in the source documents are **never filled
+by inference** — they are tagged `pending verification from official
+teaching map` and surfaced to the user.
 
 1. The Teaching Map (page 36–37 of the source) **omits 2AS textbook Unit 5**.
    Per project decision (2026-06-17) this unit is **skipped entirely**: the

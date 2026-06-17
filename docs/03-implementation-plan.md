@@ -12,8 +12,8 @@ moves from `docs/` into a teacher's lesson book, classroom by classroom.
 | 0 ✓ | Source acquisition + extraction | `sources/` | 5 PDFs/PPS + extracted .txt |
 | 1 ✓ | Master curriculum map + framework | `docs/00–02` | 4 markdown |
 | 1 ✓ | Implementation plan (this file) | `docs/03` | 1 markdown |
-| **2A — current** | Annual plans for 2AS Foreign Languages **only** (standalone validated model: yearly plan + scope & sequence + pacing guide + assessment calendar + competency map) | `curriculum/2AS/annual_plan/` | 5 markdown |
-| 2B+ — scope-deferred | Annual plans for the remaining 8 stream-grade combinations. Build vs. derivation decision is gated on Phase 2A validation (see `docs/04-quality-assurance.md`). | `curriculum/<grade>/annual_plan/` | TBD |
+| **2A — current** | Annual plans for 2AS Foreign Languages **only** (4 deliverables: yearly plan + scope & sequence + assessment calendar + competency map). Authored independently from official source documents per the Stream Integrity Rule. | `curriculum/2AS/annual_plan/` | 4 markdown |
+| 2B+ — pending | Annual plans for the remaining 8 stream-grade combinations. Each stream **independently authored** from the official source documents — derivation, trimming, mapping, or normalisation between streams is forbidden by the Stream Integrity Rule (`docs/01-pedagogical-framework.md` Section 1.b). | `curriculum/<grade>/annual_plan/` | 32 markdown (8 streams × 4 deliverables) |
 | 3 | Unit overviews | `curriculum/<grade>/unit_plans/` | 1AS=5, 2AS=7, 3AS=6 → **18 files** |
 | 4 | Bloom's-aligned objective tables (embedded in unit & lesson files) | inline | — |
 | 5 | Lesson plans (avg 8 lessons / unit × 18 units) | `curriculum/<grade>/lesson_plans/` | ~144 files |
