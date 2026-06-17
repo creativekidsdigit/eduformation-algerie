@@ -1,0 +1,14 @@
+# Python build artefacts (used by source-extraction scripts in sources/)
+__pycache__/
+*.pyc
+.venv/
+
+# Editor / OS junk
+.DS_Store
+Thumbs.db
+*.swp
+
+# Local pandoc / build outputs
+build/
+*.docx
+*.pdf.tmp
