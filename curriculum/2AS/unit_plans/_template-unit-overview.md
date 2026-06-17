@@ -1,6 +1,6 @@
 # Unit Overview Template (2AS Foreign Languages)
 
-> **🔒 FROZEN PENDING REVIEW (revised 2026-06-17).**
+> **🔒 FROZEN PENDING REVIEW (revision 2 — 2026-06-17).**
 > This template is locked. It cannot be edited, restructured, or
 > re-ordered without explicit user approval. After review, the user
 > will either approve it as-is (then it becomes the **immutable shape**
@@ -32,40 +32,64 @@ rule below).
 
 ---
 
-## ❗ MANDATORY SOURCE TAGGING (every cell)
+## 🚨 NO FABRICATION ESCALATION RULE
 
-Every populated cell in every section below carries exactly one of the
-four source tags:
+If a required field is not found in source documents:
 
-| Tag | Meaning |
-|-----|---------|
-| `[Teaching Map]` | Content is verbatim from the official Teaching Map PDF. |
-| `[Annual Distribution]` | Content is verbatim from the official Annual Distribution PDF. |
-| `[Textbook: Getting There]` | Content is from the textbook (page reference). |
-| `[Mixed: TM + AD]` | Content combines two official sources, both of which are cited. |
+1. Write: **`Not specified in source documents`**
+2. Do **NOT**:
+   - infer from other units
+   - infer from textbook patterns
+   - infer from pedagogy
+3. Do **NOT** leave blank fields
 
-If no source applies, the cell value is `Not specified in source
-documents` (no tag). **Untagged sourced content is forbidden.**
+This rule prevents silent hallucination filling. It applies to **every**
+field in every authored unit overview. A blank cell is a critical QA
+failure; an `Not specified in source documents` cell is correct
+behaviour when the source is silent.
 
 ---
 
-## ❗ LIMITED BLOOM'S TAXONOMY USAGE
+## ❗ MANDATORY SOURCE TAGGING (every cell)
 
-By default, only the following Bloom's levels may appear in Stage 1.5
-objectives:
+Every populated cell in every section below carries one of the
+following allowed tags. Multiple tags per cell are permitted when the
+content draws on more than one source.
 
-- **Remember**
-- **Understand**
-- **Apply**
+| Tag | Meaning |
+|-----|---------|
+| `[TM]` | Content sourced from the official Teaching Map PDF. |
+| `[AD]` | Content sourced from the official Annual Distribution PDF. |
+| `[TB]` | Content sourced from the textbook *Getting There* (page reference required). |
+| `[TM+AD]` | Content combines Teaching Map and Annual Distribution (both cited). |
+| `[TM+TB]` | Content combines Teaching Map and Textbook (both cited). |
 
-Higher levels (**Analyse / Evaluate / Create**) are **only** permitted
-when the source aim verb explicitly supports them (e.g. the Teaching Map
-states "Make PP write…" → Create; "Analyse the difference…" → Analyse).
-If the source uses a Remember/Understand/Apply verb, the Bloom's level
-must be Remember/Understand/Apply.
+Multi-source cells **may** carry either the combined tag (e.g.
+`[TM+AD]`) or two separate tags (e.g. `[TM] [AD]`); both forms are
+acceptable. Cells with no applicable source carry **`Not specified in
+source documents`** (no tag) per the No Fabrication Escalation Rule.
+**Untagged sourced content is forbidden.**
 
-The default ceiling is **Apply**. Anything above Apply must cite the
-exact source phrase that supports it.
+---
+
+## ❗ BLOOM'S TAXONOMY USAGE (controlled range)
+
+Bloom's-level annotations are subject to the following controlled rules:
+
+| Bloom's level | When permitted |
+|---------------|----------------|
+| **Remember** | Always permitted. |
+| **Understand** | Default range (allowed without source-verb justification). |
+| **Apply** | Default range (allowed without source-verb justification). |
+| **Analyse** | Only when explicitly supported by a source verb (cite the verb). |
+| **Evaluate** | Only when explicitly stated in the Teaching Map *or* required by the unit's project description (cite the source phrase). |
+| **Create** | Only when explicitly stated in the Teaching Map *or* required by the unit's project description (cite the source phrase). |
+
+The default range is **Understand → Apply**, with **Remember** always
+available. Higher levels (Analyse, Evaluate, Create) are not forbidden —
+they are required where the source justifies them, and forbidden where
+it does not. Each objective at Analyse-or-above MUST cite the exact
+source phrase that supports the level.
 
 ---
 
@@ -73,17 +97,17 @@ exact source phrase that supports it.
 
 | Field | Value | Source |
 |-------|-------|--------|
-| Level | 2AS | `[Annual Distribution]` |
-| Stream | Foreign Languages | `[Annual Distribution]` |
-| Coefficient | 4 | `[Annual Distribution]` |
-| Weekly hours | 5 | `[Annual Distribution]` |
-| Textbook | *Getting There* | `[Textbook: Getting There]` |
-| Textbook unit number | `{{txt-unit-number}}` | `[Textbook: Getting There]` |
-| Teaching position (1..6) | `{{1..6}}` | `[Annual Distribution]` |
-| Unit title | `{{title from teaching map}}` | `[Teaching Map]` |
-| Annual-distribution theme | `{{theme}}` | `[Annual Distribution]` |
-| Project / portfolio artefact | `{{project from teaching map}}` | `[Teaching Map]` |
-| Annual-distribution week range | `{{e.g. T1 W2-W5}}` | `[Annual Distribution]` |
+| Level | 2AS | `[AD]` |
+| Stream | Foreign Languages | `[AD]` |
+| Coefficient | 4 | `[AD]` |
+| Weekly hours | 5 | `[AD]` |
+| Textbook | *Getting There* | `[TB]` |
+| Textbook unit number | `{{txt-unit-number}}` | `[TB]` |
+| Teaching position (1..6) | `{{1..6}}` | `[AD]` |
+| Unit title | `{{title from teaching map}}` | `[TM]` |
+| Annual-distribution theme | `{{theme}}` | `[AD]` |
+| Project / portfolio artefact | `{{project from teaching map}}` | `[TM]` |
+| Annual-distribution week range | `{{e.g. T1 W2-W5}}` | `[AD]` |
 
 ---
 
@@ -91,67 +115,91 @@ exact source phrase that supports it.
 
 ### 1.1 Competencies (foregrounded by the unit's source aims)
 
-> Source: `[Teaching Map]` — the per-unit aim sections explicitly tag C1
+> Source: `[TM]` — the per-unit aim sections explicitly tag C1
 > (Interaction), C2 (Production), C3 (Interpretation). Only competencies
 > the Teaching Map *names* for this unit appear here. No emphasis
 > weighting, no inference.
 
 | Code | Name | Foregrounded by source? | Source phrase (verbatim) | Source tag |
 |------|------|--------------------------|---------------------------|-----------|
-| C1 | Interaction | `{{yes / no / Not specified in source documents}}` | `{{exact aim phrase}}` | `[Teaching Map]` |
-| C2 | Production | `{{yes / no / Not specified in source documents}}` | `{{exact aim phrase}}` | `[Teaching Map]` |
-| C3 | Interpretation | `{{yes / no / Not specified in source documents}}` | `{{exact aim phrase}}` | `[Teaching Map]` |
+| C1 | Interaction | `{{yes / no / Not specified in source documents}}` | `{{exact aim phrase}}` | `[TM]` |
+| C2 | Production | `{{yes / no / Not specified in source documents}}` | `{{exact aim phrase}}` | `[TM]` |
+| C3 | Interpretation | `{{yes / no / Not specified in source documents}}` | `{{exact aim phrase}}` | `[TM]` |
 
 ### 1.2 Productive language (grammar + functional)
 
-> Source: `[Teaching Map]` "Productive Lge / Exp." column. Verbatim only.
+> Source: `[TM]` "Productive Lge / Exp." column. Verbatim only. The
+> textbook page reference may add a `[TB]` tag when the productive item
+> is anchored to a specific textbook activity.
 
 | Grammar / form | Functional language / expression | Teaching-Map page | Source tag |
 |----------------|------------------------------------|--------------------|-----------|
-| `{{verbatim}}` | `{{verbatim}}` | `{{p.??}}` | `[Teaching Map]` |
-| `{{...}}` | `{{...}}` | `{{p.??}}` | `[Teaching Map]` |
+| `{{verbatim}}` | `{{verbatim}}` | `{{p.??}}` | `[TM]` or `[TM+TB]` |
+| `{{...}}` | `{{...}}` | `{{p.??}}` | `[TM]` or `[TM+TB]` |
 
 ### 1.3 Vocabulary glossary
 
-> Source: `[Teaching Map]` "Glossary (Lexis)" page for this unit.
-> Verbatim only.
+> Source: `[TM]` "Glossary (Lexis)" page for this unit. Verbatim only.
 
 | Word | Word class | Definition (verbatim) | Synonyms | Antonyms | Source tag |
 |------|------------|------------------------|----------|----------|-----------|
-| `{{word}}` | `{{n / v / adj}}` | `{{def from source}}` | `{{syn or "Not specified in source documents"}}` | `{{ant or "Not specified in source documents"}}` | `[Teaching Map]` |
+| `{{word}}` | `{{n / v / adj}}` | `{{def from source}}` | `{{syn or "Not specified in source documents"}}` | `{{ant or "Not specified in source documents"}}` | `[TM]` |
 
-### 1.4 Per-phase activities and aims
+### 1.4 Per-phase activities and aims (unit-specific detail)
 
-> Source: `[Teaching Map]` "Phase" + "Aim" + "Act. P. & N°" columns.
-> The textbook's six unit phases are the source's own structure;
-> activities and aims are verbatim. No instructional procedures, no
-> timings, no warm-ups, no engage-study-activate notes.
+> Source: `[TM]` "Phase" + "Aim" + "Act. P. & N°" columns. The
+> per-unit specific activities and aims for each of the textbook's six
+> phases. The structural enforcement layer is in Section 1.6 below.
 
 | Phase | Source-listed activities | Source-listed aim | Source tag |
 |-------|---------------------------|--------------------|-----------|
-| Listen & Consider | `{{Acts. p.??}}` | `{{aim verbatim}}` | `[Teaching Map]` |
-| Read & Consider | `{{Acts. p.??}}` | `{{aim verbatim}}` | `[Teaching Map]` |
-| Listening & Speaking | `{{Acts. p.??}}` | `{{aim verbatim}}` | `[Teaching Map]` |
-| Reading & Writing | `{{Acts. p.??}}` | `{{aim verbatim}}` | `[Teaching Map]` |
-| Write It Up | `{{Acts. p.??}}` | `{{aim verbatim}}` | `[Teaching Map]` |
-| Write It Out | `{{Acts. p.??}}` | `{{aim verbatim}}` | `[Teaching Map]` |
+| Listen & Consider | `{{Acts. p.??}}` | `{{aim verbatim}}` | `[TM]` or `[TM+TB]` |
+| Read & Consider | `{{Acts. p.??}}` | `{{aim verbatim}}` | `[TM]` or `[TM+TB]` |
+| Listening & Speaking | `{{Acts. p.??}}` | `{{aim verbatim}}` | `[TM]` or `[TM+TB]` |
+| Reading & Writing | `{{Acts. p.??}}` | `{{aim verbatim}}` | `[TM]` or `[TM+TB]` |
+| Write It Up | `{{Acts. p.??}}` | `{{aim verbatim}}` | `[TM]` or `[TM+TB]` |
+| Write It Out | `{{Acts. p.??}}` | `{{aim verbatim}}` | `[TM]` or `[TM+TB]` |
 
 ### 1.5 Bloom's-tagged objectives
 
-> The objective text is restated from the source aim (column 2 of 1.4).
-> The competency tag (C1/C2/C3) comes verbatim from the Teaching Map.
-> The Bloom's level is methodology metadata, capped at **Apply** unless
-> the cited source aim verb explicitly supports a higher level (cite
-> the verb).
+> Each objective must be either **verbatim-based** on a source aim, or
+> **clearly derived from an explicit source verb**. If the source aim
+> verb does not explicitly support a level above Apply, the objective
+> is downgraded to Understand or Apply, OR the cell is marked
+> `Not specified in source documents`. The source aim is shown in the
+> first column for traceability; the restated objective is in the
+> second column. The Bloom's level is methodology metadata controlled
+> per the Bloom's Taxonomy Usage rule above.
 
-| # | Source aim (verbatim) | Restated objective (SWBAT…) | Competency | Bloom's level | Source tag |
-|---|------------------------|------------------------------|------------|---------------|-----------|
-| 1 | `{{verbatim aim}}` | `{{Students will be able to <verb> <content>}}` | `{{C? from TM}}` | `{{Remember / Understand / Apply}}` | `[Teaching Map]` |
-| 2 | `{{verbatim aim}}` | `{{...}}` | `{{C?}}` | `{{R / U / A}}` | `[Teaching Map]` |
-| n | `{{verbatim aim with explicit "write" / "produce" verb}}` | culminating production (project artefact) | C2 | `Create` *(only if source aim verb explicitly = write / produce / create / compose; otherwise Apply)* | `[Teaching Map]` |
+| # | Source aim (verbatim) | Restated objective (SWBAT…) | Competency | Bloom's level | Source-verb justification (required for Analyse / Evaluate / Create) | Source tag |
+|---|------------------------|------------------------------|------------|---------------|----------------------------------------------------------------------|-----------|
+| 1 | `{{verbatim aim}}` | `{{Students will be able to <verb> <content>}}` | `{{C? from TM}}` | `{{Remember / Understand / Apply}}` | n/a | `[TM]` |
+| 2 | `{{verbatim aim}}` | `{{...}}` | `{{C?}}` | `{{R / U / A}}` | n/a | `[TM]` |
+| n | `{{verbatim aim with explicit "write" / "produce" / "analyse" / "judge" verb}}` | `{{...}}` | `{{C?}}` | `{{Analyse / Evaluate / Create}}` | `{{cite source phrase + verb}}` | `[TM]` |
 
-If the unit has no source aim that supports a higher Bloom's level, the
-ceiling is Apply — including for the project objective.
+### 1.6 Teaching Map Phase Structure (STRICT)
+
+> Source: `[TM]`. The textbook's six phases are **non-negotiable** as a
+> structure: every authored unit overview must contain all six phases,
+> in this exact order, with no phase omitted, renamed, merged, or
+> reordered. This section is **descriptive only** — it is the
+> structural enforcement layer for the per-phase data filled into
+> Section 1.4. **No instructional procedures, no timings, no warm-ups,
+> no engage-study-activate notes, no lesson sequencing.**
+
+| Phase | Source Activities | Aim | Source |
+|-------|--------------------|------|--------|
+| Listen & Consider | `{{Acts. p.??}}` | `{{aim verbatim}}` | `[TM]` |
+| Read & Consider | `{{Acts. p.??}}` | `{{aim verbatim}}` | `[TM]` |
+| Listening & Speaking | `{{Acts. p.??}}` | `{{aim verbatim}}` | `[TM]` |
+| Reading & Writing | `{{Acts. p.??}}` | `{{aim verbatim}}` | `[TM]` |
+| Write It Up | `{{Acts. p.??}}` | `{{aim verbatim}}` | `[TM]` |
+| Write It Out | `{{Acts. p.??}}` | `{{aim verbatim}}` | `[TM]` |
+
+If the Teaching Map page for a unit does not list activities for a
+given phase, the corresponding cell is marked
+`Not specified in source documents` per the No Fabrication Escalation
+Rule. The phase row itself is **never deleted**.
 
 ---
 
@@ -165,16 +213,16 @@ ceiling is Apply — including for the project objective.
 
 | Field | Value | Source tag |
 |-------|-------|-----------|
-| Project description | `{{verbatim from Teaching Map "Project:" line}}` | `[Teaching Map]` |
-| Portfolio deliverables | `{{verbatim list from Teaching Map "Portfolio" column}}` | `[Teaching Map]` |
+| Project description | `{{verbatim from Teaching Map "Project:" line}}` | `[TM]` |
+| Portfolio deliverables | `{{verbatim list from Teaching Map "Portfolio" column}}` | `[TM]` |
 | Project rubric file | `../rubrics/project-rubric-{{slug}}.md` (file pointer; rubric levels not specified in source documents) | n/a (file pointer only) |
 
 ### 2.2 Trimester written exam (mandated by Annual Distribution)
 
 | Field | Value | Source tag |
 |-------|-------|-----------|
-| Trimester this unit feeds | `{{T1 / T2 / T3 from AD week range}}` | `[Annual Distribution]` |
-| Source phrase | `{{e.g. اختبارات الثلاثي الأول}}` | `[Annual Distribution]` |
+| Trimester this unit feeds | `{{T1 / T2 / T3 from AD week range}}` | `[AD]` |
+| Source phrase | `{{e.g. اختبارات الثلاثي الأول}}` | `[AD]` |
 | Exam file (placeholder) | `../assessments/2as_fl_t{{n}}_exam.md` (to be authored later; format not specified in source documents) | n/a (file pointer only) |
 
 ---
@@ -182,14 +230,14 @@ ceiling is Apply — including for the project objective.
 ## Alignment matrix (Stage 1 ⇄ Stage 2 traceability)
 
 > Every objective from Stage 1.5 must trace to ≥ 1 phase activity
-> (Stage 1.4) and ≥ 1 source-mandated assessment (Stage 2). Only
-> sourced content appears in this matrix.
+> (Section 1.4 / 1.6) and ≥ 1 source-mandated assessment (Stage 2).
+> Only sourced content appears in this matrix.
 
-| # | Competency `[TM]` | Restated objective (Stage 1.5) | Phase + activity (Stage 1.4) | Source-mandated assessment (Stage 2) |
-|---|--------------------|---------------------------------|-------------------------------|----------------------------------------|
+| # | Competency `[TM]` | Restated objective (Stage 1.5) | Phase + activity (Section 1.4 / 1.6) | Source-mandated assessment (Stage 2) |
+|---|--------------------|---------------------------------|---------------------------------------|----------------------------------------|
 | 1 | `{{C?}}` | `{{obj 1}}` | `{{phase + Acts.}}` | `{{project / trimester exam}}` |
 | 2 | `{{C?}}` | `{{obj 2}}` | `{{...}}` | `{{...}}` |
-| n | C2 | culminating production | Write It Out + project assembly | project artefact |
+| n | `{{C?}}` | `{{...}}` | Write It Out + project assembly | project artefact |
 
 ---
 
@@ -199,18 +247,18 @@ ceiling is Apply — including for the project objective.
 > authoring; line numbers refer to the extracted text files in
 > `sources/`.
 
-- Teaching Map: `../../../sources/teaching_map_all_in_one.txt` lines `{{l1-l2}}` (textbook unit `{{n}}`) — `[Teaching Map]`
-- Annual Distribution: `../../../sources/official_syllabus_annual_distribution.txt` lines `{{l1-l2}}` (FL stream pacing) — `[Annual Distribution]`
-- Textbook: *Getting There*, Unit `{{n}}`, pages `{{p.??-p.??}}` — `[Textbook: Getting There]`
+- Teaching Map: `../../../sources/teaching_map_all_in_one.txt` lines `{{l1-l2}}` (textbook unit `{{n}}`) — `[TM]`
+- Annual Distribution: `../../../sources/official_syllabus_annual_distribution.txt` lines `{{l1-l2}}` (FL stream pacing) — `[AD]`
+- Textbook: *Getting There*, Unit `{{n}}`, pages `{{p.??-p.??}}` — `[TB]`
 
 ---
 
 ## ✅ Validation checklist (must be ticked before submission)
 
-- [ ] **All fields source-traceable** — every populated cell carries one of the four source tags (`[Teaching Map]` / `[Annual Distribution]` / `[Textbook: Getting There]` / `[Mixed: TM + AD]`), or is marked `Not specified in source documents`.
-- [ ] **No inferred content** — no field is filled by analogy, derivation, cross-stream borrowing, or pedagogical scaffolding. Bloom's level annotations are the only methodology metadata permitted, and they are capped at Apply unless the source aim verb explicitly supports a higher level.
+- [ ] **All fields source-traceable** — every populated cell carries one of the allowed source tags (`[TM]` / `[AD]` / `[TB]` / `[TM+AD]` / `[TM+TB]`, including multi-tag cells where applicable), or is marked `Not specified in source documents`.
+- [ ] **No inferred content** — no field is filled by analogy, derivation, cross-stream borrowing, cross-unit borrowing, textbook-pattern guessing, or pedagogical scaffolding. Bloom's level annotations are the only methodology metadata permitted, and they are bound by the controlled-range rule above.
 - [ ] **Exact textbook sequence compliance** — within-unit activity references follow the textbook's pagination as cited by the Teaching Map's *Act. p. & n°* column. Inter-unit teaching order follows the Annual Distribution (Reading A, confirmed 2026-06-17).
-- [ ] **No pedagogical expansion beyond curriculum scope** — the unit overview contains no warm-ups, engage-study-activate sequences, timing breakdowns, instructional procedures, phase quizzes, exit tickets, or other lesson-flow content. Such content belongs in lesson plans (a later phase), not in unit overviews.
+- [ ] **No pedagogical expansion beyond curriculum scope** — the unit overview contains no warm-ups, engage-study-activate sequences, timing breakdowns, instructional procedures, phase quizzes, exit tickets, or other lesson-flow content. Section 1.6 is descriptive of the source's phase structure only; lesson-flow belongs to a later phase.
 
 ---
 
