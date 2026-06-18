@@ -1,5 +1,12 @@
 # Unit 1 – Source Extraction Mapping (Draft)
 
+> **Status: RAW SOURCE EXTRACTION (Phase 3A Input Material)**
+>
+> - Not a Unit Overview
+> - Not final output
+
+> This document is a source extraction artifact used as input for Phase 3A validation. It is not a finalized unit overview.
+
 > **📝 DRAFT — RAW EXTRACTION MAPPING ARTIFACT.**
 > This file is **NOT a Unit Overview**, **NOT a final unit design**, and
 > **NOT a teaching artefact**. It is a draft mapping of verbatim
