@@ -1,6 +1,8 @@
 # Unit 1 – Source Extraction Mapping (Draft)
 
-> **Status: RAW SOURCE EXTRACTION (Phase 3A Input Material)**
+> **Status: Phase 3A – Extraction Draft (Unit 1)**
+>
+> **Tag: NOT a finalized Unit Overview**
 >
 > - Not a Unit Overview
 > - Not final output
