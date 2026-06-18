@@ -1,18 +1,43 @@
-# Unit 1 — Signs of the Time (2AS Foreign Languages)
+# Unit 1 – Source Extraction Mapping (Draft)
 
-> Authored from the frozen template `_template-unit-overview.md`
-> (revision 4, 2026-06-17). All content below is verbatim from the
-> official source documents in `../../../sources/`. Anything not
-> explicitly present in those sources is recorded as
-> `Not specified in source documents` per the No Fabrication
-> Escalation Rule at the bottom of this file.
+> **📝 DRAFT — RAW EXTRACTION MAPPING ARTIFACT.**
+> This file is **NOT a Unit Overview**, **NOT a final unit design**, and
+> **NOT a teaching artefact**. It is a draft mapping of verbatim
+> Teaching Map content, verbatim Annual Distribution content, and
+> textbook references for 2AS Foreign Languages textbook Unit 1
+> *Signs of the Time*, presented in the field shape of the frozen
+> template `_template-unit-overview.md` (revision 4, 2026-06-17). It
+> has been demoted from "unit overview" status (2026-06-17) per user
+> instruction and awaits validation before any further use.
+
+---
+
+## ✅ Authored-content confirmation (mandatory)
+
+The author confirms explicitly that, in this file:
+
+- **No objectives were generated.** No SWBAT statements, no restated
+  objectives, no Stage 1.5 objective table.
+- **No Bloom's taxonomy was used.** No Bloom's column, no level
+  annotations (Remember / Understand / Apply / Analyse / Evaluate /
+  Create), no Bloom's mapping.
+- **No pedagogical interpretation was added.** No competency weighting,
+  no alignment matrix, no rubric levels, no warm-ups, no
+  Engage-Study-Activate sequencing, no timing breakdowns, no
+  instructional procedures, no inferred relationships between source
+  elements.
+
+Every populated cell below is either verbatim source content tagged
+`[Teaching Map]` / `[Annual Distribution]` / `[Textbook]`, or marked
+`Not specified in source documents` per the No Fabrication Escalation
+Rule at the bottom of this file.
 
 ---
 
 ## ❗ STRICT NO-INFERENCE RULE (mandatory)
 
-All content in this authored unit overview **must be directly traceable
-to one of the official curriculum sources**:
+All content in this draft extraction mapping **must be directly
+traceable to one of the official curriculum sources**:
 
 - **Teaching Map PDF** — `sources/teaching_map_all_in_one.pdf` (and its
   extracted text `sources/teaching_map_all_in_one.txt`)
@@ -22,9 +47,8 @@ to one of the official curriculum sources**:
   Teaching Map's *Act. p. & n°* column)
 
 If a field is not explicitly present in any of these sources, it is
-marked **`Not specified in source documents`**. No inference,
-derivation, extrapolation, or analogy. No methodology metadata of any
-kind has been added on top of sourced content.
+recorded as **`Not specified in source documents`**. No inference,
+derivation, extrapolation, or analogy.
 
 ---
 
@@ -39,9 +63,9 @@ kind has been added on top of sourced content.
 
 ---
 
-## ❌ FORBIDDEN IN TEMPLATE
+## ❌ FORBIDDEN IN THIS EXTRACTION MAPPING
 
-The following are forbidden in this file (and have been kept absent):
+The following are forbidden in this file (and confirmed absent above):
 
 - No pedagogy frameworks
 - No Bloom's taxonomy
@@ -205,27 +229,32 @@ The following are forbidden in this file (and have been kept absent):
 
 ---
 
-## ✅ Validation checklist (must be ticked before submission)
+## ✅ Extraction validation checklist (must be ticked before submission)
 
 - [x] **All fields source-traceable** — every populated cell carries one of the allowed source tags (`[Teaching Map]` / `[Annual Distribution]` / `[Textbook]`), or is marked `Not specified in source documents`.
-- [x] **No inferred content** — no field is filled by analogy, derivation, cross-stream borrowing, cross-unit borrowing, textbook-pattern guessing, pedagogy frameworks, Bloom's taxonomy, objectives rewriting, competency weighting, alignment matrices, or instructional design structure (the full FORBIDDEN list above is empty in this file).
-- [x] **Exact textbook sequence compliance** — within-unit references follow the textbook's pagination as cited by the Teaching Map's *Act. P. & N°* column. Inter-unit teaching order follows the Annual Distribution (Reading A, confirmed 2026-06-17).
-- [x] **No pedagogical expansion beyond curriculum scope** — the unit overview contains no warm-ups, engage-study-activate sequences, timing breakdowns, instructional procedures, phase quizzes, exit tickets, objectives, rubric levels, or other lesson-flow / instructional-design content.
+- [x] **No inferred content** — no field is filled by analogy, derivation, cross-stream borrowing, cross-unit borrowing, textbook-pattern guessing, pedagogy frameworks, Bloom's taxonomy, objectives rewriting, competency weighting, alignment matrices, or instructional design structure.
+- [x] **Exact textbook sequence compliance** — within-unit references follow the textbook's pagination as cited by the Teaching Map's *Act. P. & N°* column. Inter-unit teaching order follows the Annual Distribution.
+- [x] **No pedagogical expansion beyond curriculum scope** — this extraction mapping contains no warm-ups, engage-study-activate sequences, timing breakdowns, instructional procedures, phase quizzes, exit tickets, objectives, rubric levels, or other lesson-flow / instructional-design content.
 
 ---
 
-## Governance reminders (do not delete from authored files)
+## Governance reminders (do not delete from this file)
 
-- This unit overview was authored per the **Stream Integrity Rule**
-  (`../../../docs/01-pedagogical-framework.md` Section 1.b): it stands
-  alone for the FL stream, not derived from any other stream.
+- This source extraction mapping was authored per the **Stream
+  Integrity Rule** (`../../../docs/01-pedagogical-framework.md`
+  Section 1.b): it stands alone for the FL stream, not derived from
+  any other stream.
 - The teaching order **1 → 2 → 3 → 4 → 7 → 6** is the Annual
   Distribution order (Reading A, confirmed by user 2026-06-17).
-- This unit overview must not be **structurally** rewritten,
+- This extraction mapping must not be **structurally** rewritten,
   reorganised, or "optimised" without explicit user approval.
 - Phase 1 docs (`docs/00-curriculum-map.md`) are FROZEN — any conflict
-  between this unit overview and Phase 1 must be raised with the user
-  for resolution, not silently corrected.
+  between this extraction mapping and Phase 1 must be raised with the
+  user for resolution, not silently corrected.
+- This file is a **draft extraction artefact**. It is **not** a unit
+  overview and **not** a final unit design. Promotion to any
+  downstream artefact (unit overview, lesson plan, rubric, assessment)
+  requires explicit user authorisation.
 
 ---
 
