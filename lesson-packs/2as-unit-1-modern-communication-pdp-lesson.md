@@ -16,8 +16,8 @@
 | 4 | Worksheet 1 — Reading Comprehension |
 | 5 | Worksheet 2 — Vocabulary |
 | 6 | Worksheet 3 — Speaking Scaffold |
-| 7 | Worksheet 4 — Exit Ticket Strips |
-| 8 | Teacher Observation Checklist + Success Criteria |
+| 7 | Exit Ticket Strips |
+| 8 | Teacher's Tools (Observation Checklist + Success Criteria) |
 | 9 | Answer Key |
 
 ---
@@ -148,7 +148,7 @@ Call on **4–5 students** to share their preference and one reason. Encourage o
 
 **Goal:** assessable individual written production.
 
-Hand out **Worksheet 4 (Exit Ticket Strip)**. Each student writes **3–4 sentences** answering:
+Hand out **the Exit Ticket Strips** (§7). Each student writes **3–4 sentences** answering:
 
 > *"How was communication different in the past? Which way do you prefer? Why?"*
 
@@ -313,7 +313,7 @@ Choose **one** to ask your partner after they speak:
 
 ---
 
-# 7. Worksheet 4 — Exit Ticket Strips
+# 7. Exit Ticket Strips
 
 > **Print one A4 page → cut into 4 strips → distribute one strip per student.**
 
@@ -405,7 +405,7 @@ Choose **one** to ask your partner after they speak:
 
 ---
 
-# 8. Assessment — Teacher's Tools
+# 8. Teacher's Tools
 
 ## 8.1 Teacher Observation Checklist (use during the lesson)
 
@@ -486,7 +486,7 @@ Sentences may have minor grammar errors as long as the meaning is clear.
 
 ## End of Pack
 
-> **A teacher's note from the author:** This lesson is print-and-go. Run off Worksheets 1–3 once per student, Worksheet 4 once per four students (cut into strips). Total prep time: 5 minutes. Total class time: 60 minutes exactly. Good luck!
+> **A teacher's note from the author:** This lesson is print-and-go. Run off Worksheets 1–3 once per student, and the Exit Ticket Strips once per four students (cut into strips). Total prep time: 5 minutes. Total class time: 60 minutes exactly. Good luck!
 
 ---
 

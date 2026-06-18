@@ -6,7 +6,7 @@
 
 ---
 
-## Quick Reference
+## Pack Overview
 
 | | |
 |---|---|
@@ -22,13 +22,19 @@
 
 ## What's Inside This Pack
 
-1. Unit overview
-2. 7 learning outcomes
-3. Language focus (grammar · vocabulary · functional expressions)
-4. Four full lesson plans
-5. Final assessment task + 4-level rubric
-6. Teacher notes (delivery tips · common difficulties · differentiation)
-7. Answer key
+| Page | Section |
+|---|---|
+| 1 | Pack Overview (one-page summary) |
+| 2 | Unit Overview |
+| 3 | Learning Outcomes (CBA-aligned) |
+| 4 | Language Focus — Grammar · Vocabulary · Functional Expressions |
+| 5 | Lesson 1 — Life in the Past |
+| 6 | Lesson 2 — Life Today |
+| 7 | Lesson 3 — Life in the Future |
+| 8 | Lesson 4 — Project Day & Assessment |
+| 9 | Final Assessment Task & Rubric |
+| 10 | Teacher's Tools (Delivery Tips · Common Difficulties · Differentiation) |
+| 11 | Answer Key |
 
 ---
 
@@ -340,9 +346,9 @@ None — the project IS the homework outcome.
 
 ---
 
-# 6. Teacher Notes
+# 6. Teacher's Tools
 
-## Delivery Tips
+## 6.1 Delivery Tips
 
 - **Anchor every lesson in the students' own lives.** Photos, family stories, and local examples make `used to` come alive far more than textbook gap-fills.
 - **Drill the form, then move on.** `Used to` is structurally simple — five minutes of choral drilling at the start of Lesson 1 saves a lot of correction later.
@@ -350,7 +356,7 @@ None — the project IS the homework outcome.
 - **Build a class word wall.** Stick the 15 vocabulary items on the wall in three columns (Past / Present / Future). Students add their own words as the unit progresses.
 - **Use the board strategically.** Reserve one corner for the contrast expressions; one corner for the certainty scale. Don't erase them between lessons.
 
-## Common Student Difficulties
+## 6.2 Common Student Difficulties
 
 | Difficulty | What to do |
 |---|---|
@@ -360,7 +366,7 @@ None — the project IS the homework outcome.
 | Vocabulary recall — students recognise words but don't reuse them | Insist on minimum vocabulary counts in the Production Tasks. The rubric rewards variety. |
 | Short, present-tense answers in Production Tasks | Provide sentence frames on the board. Insist on full sentences in writing. |
 
-## Differentiation (Three Levels)
+## 6.3 Differentiation (Three Levels)
 
 **Struggling students**
 - Provide a sentence-frame handout for every Production Task (e.g. *"My grandfather used to ____. He didn't use to ____. Today, he ____."*)
