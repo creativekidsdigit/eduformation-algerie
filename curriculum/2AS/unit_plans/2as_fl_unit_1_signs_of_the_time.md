@@ -2,10 +2,13 @@
 
 > **Status: Phase 3A – Extraction Draft (Unit 1)**
 >
+> **Validation: APPROVED as checkpoint artifact (user, 2026-06-17)**
+>
 > **Tag: NOT a finalized Unit Overview**
 >
 > - Not a Unit Overview
 > - Not final output
+> - Validated as checkpoint artifact pending downstream phase
 
 > This document is a source extraction artifact used as input for Phase 3A validation. It is not a finalized unit overview.
 

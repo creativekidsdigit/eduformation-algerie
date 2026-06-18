@@ -23,7 +23,7 @@ in the filename so teachers can match pages in *Getting There*.
 
 | Teaching position | Textbook unit | Title | Filename (reserved) | Status |
 |-------------------|----------------|-------|---------------------|--------|
-| 1 | Unit 1 | Signs of the Time | `2as_fl_unit_1_signs_of_the_time.md` | hold |
+| 1 | Unit 1 | Signs of the Time | `2as_fl_unit_1_signs_of_the_time.md` | Phase 3A – Extraction Draft, APPROVED 2026-06-17 (checkpoint artifact, NOT a finalized Unit Overview) |
 | 2 | Unit 2 | Make Peace! | `2as_fl_unit_2_make_peace.md` | hold |
 | 3 | Unit 3 | Waste Not Want Not | `2as_fl_unit_3_waste_not_want_not.md` | hold |
 | 4 | Unit 4 | Budding Scientist | `2as_fl_unit_4_budding_scientist.md` | hold |
